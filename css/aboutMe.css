@@ -1,0 +1,73 @@
+/* the whole div for about me*/
+.all-about {
+  display: flex;
+}
+/*About me text section div*/
+.about-sec {
+  width: 700px;
+}
+/*About me text title div*/
+.about-me-text {
+  font-size: 30px;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  padding-right: 5px;
+}
+/*About me title text*/
+.about-title {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+/*About me paragraph text*/
+.about-me-body {
+  font-weight: 400;
+}
+/*tools whole div*/
+.tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 80%;
+  margin-top: 70px;
+}
+/*tools title text*/
+.tools-text {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.mips-info,
+.cSharp-info,
+.c-info,
+.python-info {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+.mips-img,
+.cSharp-img,
+.c-img,
+.python-img {
+  width: 100px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 2px 2px 5px rgb(143, 142, 142);
+  border-radius: 50px;
+}
+.mips-img:hover,
+.cSharp-img:hover,
+.c-img:hover,
+.python-img:hover {
+  transform: rotateY(180deg);
+}
+.mips-decrp,
+.cSharp-decrp,
+.c-decrp,
+.python-decrp {
+  font-size: 20px;
+  margin-left: 10px;
+  max-width: 150px;
+  word-wrap: break-word;
+}

@@ -1,0 +1,134 @@
+/* Major elements overview tags */
+body {
+  background-color: rgb(236, 236, 236);
+}
+p {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* Div tags or container tags */
+.outer-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.toolbar {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*
+Button Tags
+contacts
+*/
+.contacts,
+.resume,
+.projects,
+.about {
+  border: none;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+  transition: 0.15s;
+  margin-left: 0 175px;
+  font-family: Playfair Display;
+}
+.contacts:hover,
+.resume:hover,
+.projects:hover,
+.about:hover {
+  box-shadow: 2px 2px 5px rgb(44, 44, 44);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.contacts:active,
+.resume:active,
+.projects:active {
+  opacity: 0.6;
+}
+/* About button */
+.about {
+  background-color: rgb(128, 223, 128);
+  color: rgb(34, 139, 34);
+}
+.about:hover {
+  opacity: 0.8;
+}
+.about:active {
+  opacity: 0.6;
+}
+/* Projects button*/
+.projects {
+  background-color: rgb(255, 223, 191);
+}
+.projects:hover {
+  background-color: orange;
+}
+/* Resume button*/
+.resume {
+  background-color: rgb(242, 192, 189);
+}
+.resume:hover {
+  background-color: rgb(225, 117, 111);
+}
+/* Contacts button */
+.contacts {
+  background-color: rgb(210, 180, 140);
+  color: black;
+}
+.contacts:hover {
+  background-color: rgb(223, 196, 162);
+}
+/* title div tag includes logo and name*/
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* image logo tag */
+.logo {
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* name tag */
+.name:hover {
+  background-size: 100% 3px;
+}
+.name {
+  background-image: linear-gradient(
+    90deg,
+    rgb(138, 154, 91),
+    rgb(236, 255, 220)
+  );
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: 0.15s;
+  font-family: Dancing Script;
+}
+/* plane images for more style on the home page */
+.plane-image,
+.plane-image-two {
+  width: 100px;
+}
+.plane-image {
+  position: absolute;
+  left: 0;
+}
+.plane-image-two {
+  position: absolute;
+  right: 0;
+  transform: scaleX(-1); /* Flip image horizontally */
+}
