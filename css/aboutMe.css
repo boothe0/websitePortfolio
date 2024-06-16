@@ -1,10 +1,13 @@
 /* the whole div for about me*/
 .all-about {
   display: flex;
+  justify-content: center;
 }
 /*About me text section div*/
 .about-sec {
   width: 700px;
+  font-family: Playfair Display;
+  text-align: center;
 }
 /*About me text title div*/
 .about-me-text {
@@ -13,6 +16,7 @@
   border-left: none;
   border-top: none;
   padding-right: 5px;
+  
 }
 /*About me title text*/
 .about-title {
