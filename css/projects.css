@@ -1,11 +1,6 @@
-.project-downloads
+/* styles for all the links on the page*/
+a:link 
 {
-  display: flex;
-  display: inline-block;
-}
-
-
-a:link {
   background-color: rgb(115,134,120);
   font-family:  Playfair Display;
   margin-left: 20px;
@@ -13,39 +8,79 @@ a:link {
   border-radius: 15px;
   color: rgb(249, 228, 188);
 }
-
-.CS200Project
+/* connects to above and ensures all links are on the same line and adjust to window size*/
+.project-downloads
 {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 600px;
-  padding: 5px;
+  display: inline-block;
 }
 
+
+/*div covering whole cs200 section for grid styling*/
+.CS200Project
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  gap: 20px;
+}
+/*div for reference to link information to center*/
+.reference-div
+{
+  text-align: center;
+}
+/*setting small font size for the information to link above*/
 .referencelink1
 {
   margin: 0;
   font-size: 20px;
 }
-
+/*all text elements of this project in this div*/
+.CS200Project-txt-container
+{
+  padding-right: 20px;
+  text-align: center;
+}
 .project1-title
 {
   margin-bottom: 0;
   font-size: 35px;
 }
-
 .project1descrip-div
 {
   padding-right: 5px;
   word-wrap: break-word;
 }
-
 .descrip-Project1
 {
   font-size: 30px;
   font-weight: 500;
   font-family: Playfair Dsiplay;
   text-align: center;
-
 }
+
+
+/*starts the project grid div*/
+.project1-picsTotal
+{
+  display: grid;
+}
+/* div to ensure pictures change size enough with the window */
+.project1-pics
+{
+  display: flex;
+  gap: 20px;
+}
+.projectCover
+{
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.projectAlgo
+{
+  width: 100%;
+  max-width: 600px;
+}
+
