@@ -13,3 +13,39 @@ a:link {
   border-radius: 15px;
   color: rgb(249, 228, 188);
 }
+
+.CS200Project
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 5px;
+}
+
+.referencelink1
+{
+  margin: 0;
+  font-size: 20px;
+}
+
+.project1-title
+{
+  margin-bottom: 0;
+  font-size: 35px;
+}
+
+.project1descrip-div
+{
+  padding-right: 5px;
+  word-wrap: break-word;
+}
+
+.descrip-Project1
+{
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Playfair Dsiplay;
+  text-align: center;
+
+}
