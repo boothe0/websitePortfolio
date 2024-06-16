@@ -1,0 +1,15 @@
+.project-downloads
+{
+  display: flex;
+  display: inline-block;
+}
+
+
+a:link {
+  background-color: rgb(115,134,120);
+  font-family:  Playfair Display;
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  color: rgb(249, 228, 188);
+}
