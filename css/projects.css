@@ -27,7 +27,7 @@ a:link
 }
 .CS136Project
 {
-  margin-top: 300px;
+  margin-top: 250px;
 }
 /*div for reference to link information to center*/
 .reference2-div,
@@ -80,6 +80,7 @@ a:link
 {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  
 }
 /* div to ensure pictures change size enough with the window */
 .project2-pics,
@@ -117,4 +118,23 @@ a:link
   flex: 1;
   width: 100%;
   max-width: 500px;
+}
+
+
+.projectCover,
+.projectAlgo,
+.projectCover2,
+.projectAlgo2
+{
+  border: solid;
+  border-width: 0;
+  border-image: linear-gradient(to right, rgb(115,134,120),rgb(219,234,210)) 1;
+  transition: border.15s;
+}
+.projectCover:hover,
+.projectAlgo:hover,
+.projectCover2:hover,
+.projectAlgo2:hover
+{
+  border-width: 3px;
 }
