@@ -17,6 +17,7 @@ a:link
 
 
 /*div covering whole cs200 section for grid styling*/
+.CS136Project,
 .CS200Project
 {
   display: grid;
@@ -24,52 +25,70 @@ a:link
   width: 100%;
   gap: 20px;
 }
+.CS136Project
+{
+  margin-top: 300px;
+}
 /*div for reference to link information to center*/
+.reference2-div,
 .reference-div
 {
   text-align: center;
 }
 /*setting small font size for the information to link above*/
+.referencelink2,
 .referencelink1
 {
   margin: 0;
   font-size: 20px;
 }
 /*all text elements of this project in this div*/
+.CS136Project-txt-container,
 .CS200Project-txt-container
 {
   padding-right: 20px;
   text-align: center;
+
 }
+.project2-title,
 .project1-title
 {
   margin-bottom: 0;
   font-size: 35px;
 }
+.project2descrip-div,
 .project1descrip-div
 {
   padding-right: 5px;
   word-wrap: break-word;
+
 }
+.descrip-Project2,
 .descrip-Project1
 {
   font-size: 30px;
   font-weight: 500;
-  font-family: Playfair Dsiplay;
+  font-family: Playfair Display;
+  font-weight: 400;
   text-align: center;
 }
 
 
 /*starts the project grid div*/
+.project-picsTotal2,
 .project1-picsTotal
 {
   display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 /* div to ensure pictures change size enough with the window */
+.project2-pics,
 .project1-pics
 {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .projectCover
 {
@@ -79,8 +98,23 @@ a:link
 }
 
 .projectAlgo
+
 {
   width: 100%;
   max-width: 600px;
+  margin-top: 20px;
 }
 
+.projectCover2
+{
+  width: 100%;
+  max-width: 800px;
+
+}
+
+.projectAlgo2
+{
+  flex: 1;
+  width: 100%;
+  max-width: 500px;
+}
