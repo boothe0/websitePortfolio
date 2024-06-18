@@ -30,7 +30,6 @@ Button Tags
 contacts
 */
 .contacts,
-.resume,
 .projects,
 .about {
   border: none;
@@ -45,7 +44,6 @@ contacts
   font-family: Playfair Display;
 }
 .contacts:hover,
-.resume:hover,
 .projects:hover,
 .about:hover {
   box-shadow: 2px 2px 5px rgb(44, 44, 44);
@@ -53,7 +51,6 @@ contacts
   margin-left: 10px;
 }
 .contacts:active,
-.resume:active,
 .projects:active {
   opacity: 0.6;
 }
@@ -75,21 +72,14 @@ contacts
 .projects:hover {
   background-color: orange;
 }
-/* Resume button*/
-.resume {
+/* Contact button*/
+.contacts {
   background-color: rgb(242, 192, 189);
 }
-.resume:hover {
+.contacts:hover {
   background-color: rgb(225, 117, 111);
 }
-/* Contacts button */
-.contacts {
-  background-color: rgb(210, 180, 140);
-  color: black;
-}
-.contacts:hover {
-  background-color: rgb(223, 196, 162);
-}
+
 /* title div tag includes logo and name*/
 .title {
   display: flex;
