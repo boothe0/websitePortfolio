@@ -79,7 +79,7 @@ a:link
 .project1-picsTotal
 {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   
 }
 /* div to ensure pictures change size enough with the window */

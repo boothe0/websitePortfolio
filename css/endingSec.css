@@ -1,0 +1,50 @@
+.contacts-block,
+.contacts-content
+{
+  background-color: rgb(109,118,91);
+  color: rgb(249, 228, 188);
+  margin-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts-text
+{
+  padding-top: 0;
+  margin: 0;
+  flex: 1;
+  padding-bottom: 100px;
+}
+.contacts-content
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.outer-imgs
+{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.gmail-img
+{
+  padding-right: 50px;
+}
+
+.gmail-img,
+.linkedin-img
+{
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 0;
+}
+
