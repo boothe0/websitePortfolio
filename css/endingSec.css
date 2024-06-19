@@ -34,10 +34,19 @@
   text-align: center;
 }
 
-
-.gmail-img
+.gmail-info,
+.linkedin-info
 {
-  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.gmail-link,
+.linkedin-link
+{
+  color: rgb(249, 228, 188);
 }
 
 .gmail-img,
@@ -48,3 +57,28 @@
   margin-bottom: 0;
 }
 
+.decor1,
+.decor2
+{
+  width: 150px;
+  position: absolute;
+}
+
+.contact-decor
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.decor1
+{
+  margin: 0 -110px;
+}
+.decor2
+{
+  margin: 0 350px;
+  transform: scaleX(-1); /* Flip image horizontally */
+}

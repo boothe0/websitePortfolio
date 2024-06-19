@@ -1,5 +1,6 @@
-/* styles for all the links on the page*/
-a:link 
+/* styles for all the links in this section*/
+.project1-link,
+.project2-link
 {
   background-color: rgb(115,134,120);
   font-family:  Playfair Display;
