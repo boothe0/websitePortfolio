@@ -55,16 +55,16 @@
 .c-img,
 .python-img {
   width: 100px;
-  transition: transform 0.6s;
+  transition: 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 2px 2px 5px rgb(143, 142, 142);
   border-radius: 50px;
+
 }
 .mips-img:hover,
 .cSharp-img:hover,
 .c-img:hover,
 .python-img:hover {
-  transform: rotateY(180deg);
+  box-shadow: 3px 3px 7px rgb(143, 142, 142);
 }
 .mips-decrp,
 .cSharp-decrp,
