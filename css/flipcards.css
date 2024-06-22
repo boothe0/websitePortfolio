@@ -1,56 +1,77 @@
 .container,
-.container2 {
+.container2,
+.container3,
+.container4 {
   width: 500px;
   height: 700px;
   perspective: 700px;
 }
 
 .container:hover > .card,
-.container2:hover > .card2 {
+.container2:hover > .card2,
+.container3:hover > .card3,
+.container4:hover > .card4 {
   cursor: pointer;
   transform: rotateY(180deg);
 }
 .card,
-.card2 {
+.card2,
+.card3,
+.card4 {
   height: 100%;
   width: 100%;
   position: relative;
   transition: transform 1500ms;
   transform-style: preserve-3d;
 }
-.project1-cards {
+.project1-cards,
+.project2-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .front,
 .front2,
+.front3,
+.front4,
 .back,
-.back2 {
+.back2,
+.back3,
+.back4 {
   width: 100%;
   height: 100%;
   border-radius: 2rem;
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   position: absolute;
   backface-visibility: hidden;
-  transition: transform 0.6s ease; /* Added transition for smoother flip */
+  transition: transform 0.6s ease;
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: rotateY(180deg);
 }
 
 .front {
   background-image: url("../pics/reportCover.png");
-  background-size: contain;
-  transform: rotateY(180deg); /* Flipped the front side */
 }
 
 .front2 {
   background-image: url("../pics/algorithmUsed.png");
-  background-size: contain;
-  transform: rotateY(180deg); /* Flipped the front side */
+}
+
+.front3 {
+  background-image: url("../pics/terminal.png");
+}
+
+.front4 {
+  background-image: url("../pics/DNAproject1.png");
 }
 
 .back,
-.back2 {
-  background-color: lightgrey;
-  transform: rotateY(0deg); /* Keeping the back side as-is */
+.back2,
+.back3,
+.back4 {
+  transform: rotateY(0deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
