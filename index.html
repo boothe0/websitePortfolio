@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/aboutMe.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/endingSec.css" />
+    <link rel="stylesheet" href="css/flipcards.css" />
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,8 +32,12 @@
     <div class="outer-toolbar">
       <div class="toolbar">
         <button onclick="scrollSection('about')" class="about">About me</button>
-        <button onclick="scrollSection('projects')" class="projects">Projects</button>
-        <button onclick="scrollSection('contacts')" class="contacts">Contacts</button>
+        <button onclick="scrollSection('projects')" class="projects">
+          Projects
+        </button>
+        <button onclick="scrollSection('contacts')" class="contacts">
+          Contacts
+        </button>
       </div>
     </div>
     <div class="title">
@@ -45,14 +50,14 @@
           <div class="about-title">
             <p id="about-header" class="about-me-text">About Me</p>
           </div>
-  
+
           <div>
             <h1 class="about-me-body">
               I'm a Sophmore in college learning all about different programming
               languages and disciplines within software engineering. Currently
-              focused on web and game design. I find myself enjoying seeing visual
-              and tangible changes with my code that emphasize the intersection
-              between engineering, creativity and art.
+              focused on web and game design. I find myself enjoying seeing
+              visual and tangible changes with my code that emphasize the
+              intersection between engineering, creativity and art.
             </h1>
           </div>
         </div>
@@ -82,12 +87,18 @@
       <div class="projects-body">
         <p id="projects-header">Projects</p>
         <div class="project-downloads">
-          <a class="project1-link"
-          href="https://www.dropbox.com/scl/fi/68w7xv2dz41ljib0vgbys/ehb48cs200proj1.zip?rlkey=51zl6tkxwkqkq51mribczco8c&st=teqsrury&dl=1" 
-          download>Download Project 1</a>
-          <a class="project2-link"
-           href="https://www.dropbox.com/scl/fi/dc10pfhiep1ly1ud43wiu/DNA_Project.zip?rlkey=ubukny6lklz4rq0ahgemb2qeu&st=l0eo6jzx&dl=1" 
-          download>Download Project 2</a>
+          <a
+            class="project1-link"
+            href="https://www.dropbox.com/scl/fi/68w7xv2dz41ljib0vgbys/ehb48cs200proj1.zip?rlkey=51zl6tkxwkqkq51mribczco8c&st=teqsrury&dl=1"
+            download
+            >Download Project 1</a
+          >
+          <a
+            class="project2-link"
+            href="https://www.dropbox.com/scl/fi/dc10pfhiep1ly1ud43wiu/DNA_Project.zip?rlkey=ubukny6lklz4rq0ahgemb2qeu&st=l0eo6jzx&dl=1"
+            download
+            >Download Project 2</a
+          >
         </div>
         <div class="CS200Project">
           <div class="CS200Project-txt-container">
@@ -98,18 +109,31 @@
               <p class="referencelink1">(project 1)</p>
             </div>
             <div class="project1descrip-div">
-              <p class="descrip-Project1"> 
+              <p class="descrip-Project1">
                 Created in MIPS assembly, using the MARS assembler, this program
-                takes in a min and max value from the user. Then, using a random seed
-                prints out a specified number of "random values". I used an algorithm to simualte
-                this as purely random numbers are not possible in MIPS.
+                takes in a min and max value from the user. Then, using a random
+                seed prints out a specified number of "random values". I used an
+                algorithm to simualte this as purely random numbers are not
+                possible in MIPS.
               </p>
             </div>
           </div>
-          <div class="project-picsTotal">
-            <div class="project1-pics">
-              <img class="projectCover" src="pics/reportCover.png"/>
-              <img class="projectAlgo" src="pics/algorithmUsed.png"/>
+          <div class="project1-cards">
+            <div class="container">
+              <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                  <h1>Project Report Cover</h1>
+                </div>
+              </div>
+            </div>
+            <div class="container2">
+              <div class="card2">
+                <div class="front2"></div>
+                <div class="back2">
+                  <h1>Implemented Algorithm</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -122,48 +146,56 @@
               <p class="referencelink2">(project 2)</p>
             </div>
             <div class="project2descrip-div">
-              <p class="descrip-Project2"> 
-                This project compares two randomly generated DNA strands.
-                The user states how much they think the nucleotides should shift in order to 
-                get the maximum alignment score. Then, the program determines what
-                amount would lead to the maximum alignment score or the shift needed for the 
-                DNA strands to match up the most. 
+              <p class="descrip-Project2">
+                This project compares two randomly generated DNA strands. The
+                user states how much they think the nucleotides should shift in
+                order to get the maximum alignment score. Then, the program
+                determines what amount would lead to the maximum alignment score
+                or the shift needed for the DNA strands to match up the most.
               </p>
             </div>
           </div>
           <div class="project-picsTotal2">
             <div class="project2-pics">
-              <img class="projectAlgo2" src="pics/terminal.png"/>
-              <img class="projectCover2" src="pics/DNAproject1.png"/> 
+              <img class="projectAlgo2" src="pics/terminal.png" />
+              <img class="projectCover2" src="pics/DNAproject1.png" />
             </div>
           </div>
         </div>
       </div>
     </section>
-   
+
     <section id="contacts">
       <div class="contacts-block">
         <div class="contacts-content">
           <div class="contact-decor">
-            <img class="decor1" src="pics/greenleaf.png"/>
+            <img class="decor1" src="pics/greenleaf.png" />
             <p id="contacts-header" class="contacts-text">Contact me here:</p>
-            <img class="decor2" src="pics/greenleaf.png"/>
+            <img class="decor2" src="pics/greenleaf.png" />
           </div>
-  
+
           <div class="outer-imgs">
             <div class="gmail-info">
-              <img class="gmail-img" src="pics/gmail.png"/>
-              <a class="gmail-link" href="mailto:elizabeth4330S@gmail.com" target="_blank">Gmail</a>
+              <img class="gmail-img" src="pics/gmail.png" />
+              <a
+                class="gmail-link"
+                href="mailto:elizabeth4330S@gmail.com"
+                target="_blank"
+                >Gmail</a
+              >
             </div>
             <div class="linkedin-info">
-              <img class="linkedin-img" src="pics/linkedin.png"/>
-              <a class="linkedin-link" href="https://www.linkedin.com/in/elizabeth-booth/" target="_blank">Linkedin</a>
+              <img class="linkedin-img" src="pics/linkedin.png" />
+              <a
+                class="linkedin-link"
+                href="https://www.linkedin.com/in/elizabeth-booth/"
+                target="_blank"
+                >Linkedin</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
   </body>
 </html>
