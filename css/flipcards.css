@@ -24,6 +24,7 @@
   transition: transform 1500ms;
   transform-style: preserve-3d;
 }
+.project0-cards,
 .project1-cards,
 .project2-cards {
   display: grid;
@@ -31,6 +32,8 @@
   gap: 1rem;
   padding: 1rem;
 }
+.front01,
+.front0,
 .front,
 .front2,
 .front3,
@@ -53,6 +56,12 @@
   transform: rotateY(180deg);
 }
 
+.front0 {
+  background-image: url("../pics/background.png");
+}
+.front01 {
+  background-image: url("../pics/htmlTitleProject.png");
+}
 .front {
   background-image: url("../pics/reportCover.png");
 }

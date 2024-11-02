@@ -123,10 +123,9 @@ contacts
   transform: scaleX(-1); /* Flip image horizontally */
 }
 
-@media screen and (max-width: 900px) and (min-width: 390px)
-{
-  html, body
-  {
+@media screen and (max-width: 900px) and (min-width: 390px) {
+  html,
+  body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -134,10 +133,7 @@ contacts
     overflow-x: hidden;
   }
 
-  
-
-  .header-content
-  {
+  .header-content {
     display: flex;
     flex-direction: column;
     align-items: center;
